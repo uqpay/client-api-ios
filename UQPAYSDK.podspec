@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "UQPAY_SDK"
-  spec.version      = "1.0.0"
-  spec.summary      = "A short description of UQPAY_SDK."
+  spec.name         = "UQPAYSDK"
+  spec.version      = "v1.0.1"
+  spec.summary      = "A short description of UQPAY SDK."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
   spec.homepage     = "https://github.com/SuperiorWang/UQPAY_SDK_Project"
-  spec.source       = { :git => "https://github.com/SuperiorWang/UQPAY_SDK_Project.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/SuperiorWang/UQPAY_SDK_Project.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,15 +96,15 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "Classes/**/*.h"
 
-  # spec.default_subspecs = %w[UQPAY_SDK]
+   spec.default_subspecs = %w[UQPAY_SDK]
   
-  # spec.subspec "UQPAY_SDK" do |spec|
+   spec.subspec "UQPAY_SDK" do |spec|
     spec.source_files = "UQPAY_SDK/**/*.{h,m}"
     spec.public_header_files = "UQPAY_SDK/Public/*.h"
     spec.frameworks = "Foundation","UIKit", "LocalAuthentication", "Security","SystemConfiguration","CFNetwork"
     spec.libraries = "c++","z"
     spec.vendored_libraries = 'libPaymentControl.a'
-  # end
+   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
