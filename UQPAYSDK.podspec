@@ -96,14 +96,14 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "Classes/**/*.h"
 
-   spec.default_subspecs = %w[UQPAY_SDK]
+   spec.default_subspecs = %w[UQPAYSDK]
   
-   spec.subspec "UQPAY_SDK" do |spec|
-    spec.source_files = "UQPAY_SDK/**/*.{h,m}"
-    spec.public_header_files = "UQPAY_SDK/Public/*.h"
+   spec.subspec "UQPAYSDK" do |spec|
+    spec.source_files = "UQPAYSDK/**/*.{h,m}"
+    spec.public_header_files = "UQPAYSDK/Public/*.h"
     spec.frameworks = "Foundation","UIKit", "LocalAuthentication", "Security","SystemConfiguration","CFNetwork"
     spec.libraries = "c++","z"
-    spec.vendored_libraries = 'libPaymentControl.a'
+    spec.vendored_libraries = 'UQPAYSDK/libPaymentControl.a'
    end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
