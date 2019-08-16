@@ -1,7 +1,7 @@
 {
   "name": "UQPAYSDK",
-  "version": "1.0.0",
-  "summary": "A short description of UQPAY_SDK.",
+  "version": "1.0.1",
+  "summary": "A short description of UQPAY SDK.",
   "description": "UQPay SDK",
   "license": "MIT",
   "requires_arc": true,
@@ -14,21 +14,29 @@
   "homepage": "https://github.com/SuperiorWang/UQPAY_SDK_Project",
   "source": {
     "git": "https://github.com/SuperiorWang/UQPAY_SDK_Project.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
-  "source_files": "UQPAY_SDK/**/*.{h,m}",
-  "public_header_files": "UQPAY_SDK/Public/*.h",
-  "frameworks": [
-    "Foundation",
-    "UIKit",
-    "LocalAuthentication",
-    "Security",
-    "SystemConfiguration",
-    "CFNetwork"
+  "default_subspecs": [
+    "UQPAY_SDK"
   ],
-  "libraries": [
-    "c++",
-    "z"
-  ],
-  "vendored_libraries": "libPaymentControl.a"
+  "subspecs": [
+    {
+      "name": "UQPAY_SDK",
+      "source_files": "UQPAY_SDK/**/*.{h,m}",
+      "public_header_files": "UQPAY_SDK/Public/*.h",
+      "frameworks": [
+        "Foundation",
+        "UIKit",
+        "LocalAuthentication",
+        "Security",
+        "SystemConfiguration",
+        "CFNetwork"
+      ],
+      "libraries": [
+        "c++",
+        "z"
+      ],
+      "vendored_libraries": "libPaymentControl.a"
+    }
+  ]
 }

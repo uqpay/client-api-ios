@@ -7,7 +7,7 @@ use_frameworks!
 
 workspace 'UQPAY_SDK_Project.xcodeproj'
 
-project 'UQPAY_SDK_Project' do
+target 'UQPAY_SDK_Project' do
   pod 'UQPAYSDK', :path => "./"
 end
 

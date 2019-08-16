@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UQPAYSDK"
-  spec.version      = "v1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A short description of UQPAY SDK."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
   spec.homepage     = "https://github.com/SuperiorWang/UQPAY_SDK_Project"
-  spec.source       = { :git => "https://github.com/SuperiorWang/UQPAY_SDK_Project.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/SuperiorWang/UQPAY_SDK_Project.git", :tag => "1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
