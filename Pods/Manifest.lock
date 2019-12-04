@@ -1,18 +1,18 @@
 PODS:
-  - UQPAYSDK (1.0.1):
-    - UQPAYSDK/UQPAY_SDK (= 1.0.1)
-  - UQPAYSDK/UQPAY_SDK (1.0.1)
+  - uqpay_client_api (1.0.0):
+    - uqpay_client_api/UQPAYSDK (= 1.0.0)
+  - uqpay_client_api/UQPAYSDK (1.0.0)
 
 DEPENDENCIES:
-  - UQPAYSDK (from `./`)
+  - uqpay_client_api (from `./`)
 
 EXTERNAL SOURCES:
-  UQPAYSDK:
+  uqpay_client_api:
     :path: "./"
 
 SPEC CHECKSUMS:
-  UQPAYSDK: 6be752a1ba21a503528f974817e44ede2f8aa007
+  uqpay_client_api: 541a9b5e19fde785d7c05a79ce478c0a53ff09f2
 
-PODFILE CHECKSUM: 0446ce6cda9870f0de8b35e32a238522758644c6
+PODFILE CHECKSUM: 28f528dfb1763a52452f1858bc38c9243b3daf20
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4

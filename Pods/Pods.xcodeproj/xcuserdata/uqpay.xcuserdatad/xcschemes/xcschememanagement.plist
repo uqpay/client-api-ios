@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-UQPAYSDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-UQPAY_SDK_Project.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>UQPAYSDK.xcscheme</key>
+		<key>Pods-uqpay_client_api.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>uqpay_client_api.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

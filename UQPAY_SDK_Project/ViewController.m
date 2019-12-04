@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <UQPAYSDK/UQPAYSDK.h>
+#import <uqpay_client_api/UQPAYSDK.h>
 
 @interface ViewController ()
 

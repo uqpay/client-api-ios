@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB9C43582303A74900E42DF4"
-               BuildableName = "UQPAYSDK.framework"
-               BlueprintName = "UQPAYSDK"
+               BuildableName = "uqpay_client_api.framework"
+               BlueprintName = "uqpay_client_api"
                ReferencedContainer = "container:UQPAY_SDK_Project.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Release"
@@ -46,13 +44,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB9C43582303A74900E42DF4"
-            BuildableName = "UQPAYSDK.framework"
-            BlueprintName = "UQPAYSDK"
+            BuildableName = "uqpay_client_api.framework"
+            BlueprintName = "uqpay_client_api"
             ReferencedContainer = "container:UQPAY_SDK_Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -64,8 +60,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB9C43582303A74900E42DF4"
-            BuildableName = "UQPAYSDK.framework"
-            BlueprintName = "UQPAYSDK"
+            BuildableName = "uqpay_client_api.framework"
+            BlueprintName = "uqpay_client_api"
             ReferencedContainer = "container:UQPAY_SDK_Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

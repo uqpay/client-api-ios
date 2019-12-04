@@ -6,255 +6,389 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		5C451D4D565E21C60380D3B1F24B0A90 /* UQPAYSDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 17BB107D26FB2F4F1CE1B9F12A4BF319 /* Build configuration list for PBXAggregateTarget "UQPAYSDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = UQPAYSDK;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		3E0EFA554ECDE923F9BA0A9C2F3562C7 /* Pods-UQPAY_SDK_Project-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C73D3D0514DF6F7E5886F5687BF481 /* Pods-UQPAY_SDK_Project-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63F4BBA591692777A7F7D641E0D28A81 /* Pods-UQPAYSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D654961BA6C570CCC7C55BEBBA0302 /* Pods-UQPAYSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		954473C5E74487B916D6A6E0ECFBB7D7 /* Pods-UQPAY_SDK_Project-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86938FAB25DC98D94A9C523AED3AD6E0 /* Pods-UQPAY_SDK_Project-dummy.m */; };
-		D8D0FA17D508715F88E79C9186BC7457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EE87CAEF1B3B26BD004821BAA5532DCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F81D1E79DB558E85E51D630F0076172F /* Pods-UQPAYSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E600DFEB49C2FD026BFB988AA104F /* Pods-UQPAYSDK-dummy.m */; };
+		09DB393262BC672F97137467BBDC303D /* uqpay_client_api-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F38E112879C3DC49DFC3335F28FCC666 /* uqpay_client_api-dummy.m */; };
+		123005CFAADF93DF78C27D8C720D54A2 /* UQPayApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E8549C544BAA4101CAE90412C1EDE7 /* UQPayApi.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		179D989A2B1440BD5F198C076D8A9079 /* ScenesEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D29ABB69F4AB03B39DFE290633C8804 /* ScenesEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B601879C18B879972461925E9C6B9F8 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB20B2DC856757DC663B97F6D3B59F /* LocalAuthentication.framework */; };
+		38A894E545CAE83E7191275151357ABA /* UQPAYSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AE29AB1CA9A85E08B3562A42689CC6 /* UQPAYSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		407E41542D93507A9FC34C1915049CC3 /* Pods-UQPAY_SDK_Project-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C08AAB11988FF1ECC0C966888DABE3 /* Pods-UQPAY_SDK_Project-dummy.m */; };
+		4144F50AEA40570E9C50CB8D1222B97F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08885C0D8523BB158565592505F89C3C /* Security.framework */; };
+		5793CB9D30DC91770A5E581A85F3CE20 /* Pods-UQPAY_SDK_Project-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17A32E8AEDF7A8045B680E78E436470E /* Pods-UQPAY_SDK_Project-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710E886F72E6853BDEC510AF122E1C13 /* Pods-uqpay_client_api-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ADB657769DA28179EC5A34CFA2922A /* Pods-uqpay_client_api-dummy.m */; };
+		76993CC188C81F2CE4899B66254CABF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA94B6BE20A3F565C0B08DE98434559 /* UIKit.framework */; };
+		816202B62D629581F63CB0C22421368E /* EnvEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E4531EE3C526B92E4CAE69DEACF8F5 /* EnvEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84FD20714E48C5B759CBF5EFDB9AC4E8 /* OrderInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C446414AEC1E82AB8AEE33A11F3F50A6 /* OrderInfo.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8C7811E2AC7829E2AEF978AFA39302F4 /* UQPayApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8877673CD09B141AC63166C93F4A83 /* UQPayApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B85CCD1B668C14978E45BBD28B3078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7615C53D6BAA1760E714A3440F5F3F /* Foundation.framework */; };
+		94ED44E53F6A02AEC885157E1B9F6C76 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EF387C5FD8EF7BD86302AFC2958720 /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		984F4825B3954357FF459199CE626B9B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DAA6BB5B9077F4D67D2248C4C29ECD /* CFNetwork.framework */; };
+		B1021B0384AC90A0EDD3FAEFB1DF386E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7615C53D6BAA1760E714A3440F5F3F /* Foundation.framework */; };
+		B1560AB55AFF73DD09F9C1C096719407 /* OrderInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8849399191D6F498B5487BECCBC7205D /* OrderInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B352FFE96FAD1461CE503F0AE096 /* Pods-uqpay_client_api-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A10F9806DD0EB458317F2410624B432 /* Pods-uqpay_client_api-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBEDE76E5E8AA24B66604EC2430C637 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5299C728CE6EA1B53A37FB79F54E21E1 /* SystemConfiguration.framework */; };
+		E7DBC55005BE52DEAC7C7D54CB63BB62 /* uqpay_client_api-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F04E1B1929988E2DAE885BF9E7EC4E7A /* uqpay_client_api-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE10371CF29F9DDD72B71D56523EFF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7615C53D6BAA1760E714A3440F5F3F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AB81D79B8F9A22DB53883B2D0EDEE368 /* PBXContainerItemProxy */ = {
+		C8B494B547CDBAD9D4C9F84967945B0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C451D4D565E21C60380D3B1F24B0A90;
-			remoteInfo = UQPAYSDK;
+			remoteGlobalIDString = 3262AC55C145376D77289F0A04D1A2AF;
+			remoteInfo = uqpay_client_api;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04D654961BA6C570CCC7C55BEBBA0302 /* Pods-UQPAYSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UQPAYSDK-umbrella.h"; sourceTree = "<group>"; };
-		064018F2BDEC423C9E77DE8694EDCF2A /* Pods-UQPAY_SDK_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UQPAY_SDK_Project.release.xcconfig"; sourceTree = "<group>"; };
-		101CDE2781A00315F5327A5F9F693573 /* Pods-UQPAY_SDK_Project-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UQPAY_SDK_Project-acknowledgements.plist"; sourceTree = "<group>"; };
-		11140562A1DD55FD5CC300AD0A02251B /* Pods-UQPAYSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UQPAYSDK.modulemap"; sourceTree = "<group>"; };
-		1975F03B79A14FBB8BC30F0F5C84B195 /* Pods-UQPAYSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UQPAYSDK.release.xcconfig"; sourceTree = "<group>"; };
-		20F9592CC548D450C383BB7B2632DD50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		289FD3C5D2B2056B3A7C5BC1D8E974E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3C4208237DC09BCF89001F01BB8D29AD /* Pods-UQPAYSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UQPAYSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3DD344A08875A2978210433D7379CC40 /* Pods-UQPAYSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UQPAYSDK-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E0E86A7B18B257C191CD5572A054334 /* Pods_UQPAYSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UQPAYSDK.framework; path = "Pods-UQPAYSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		86816F451BBA067340C500229D897C25 /* Pods-UQPAY_SDK_Project-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UQPAY_SDK_Project-Info.plist"; sourceTree = "<group>"; };
-		86938FAB25DC98D94A9C523AED3AD6E0 /* Pods-UQPAY_SDK_Project-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UQPAY_SDK_Project-dummy.m"; sourceTree = "<group>"; };
-		8A25833F615AC17686936C3EF10962E8 /* Pods-UQPAY_SDK_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UQPAY_SDK_Project.debug.xcconfig"; sourceTree = "<group>"; };
+		01AE29AB1CA9A85E08B3562A42689CC6 /* UQPAYSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UQPAYSDK.h; sourceTree = "<group>"; };
+		04ADB657769DA28179EC5A34CFA2922A /* Pods-uqpay_client_api-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-uqpay_client_api-dummy.m"; sourceTree = "<group>"; };
+		08885C0D8523BB158565592505F89C3C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		0E01C034C18A95F1CE1B44B0991533BA /* Pods-UQPAY_SDK_Project-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UQPAY_SDK_Project-Info.plist"; sourceTree = "<group>"; };
+		124FDFE61B4FE73CE43F0A421C0A003C /* Pods-UQPAY_SDK_Project-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UQPAY_SDK_Project-frameworks.sh"; sourceTree = "<group>"; };
+		17A32E8AEDF7A8045B680E78E436470E /* Pods-UQPAY_SDK_Project-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UQPAY_SDK_Project-umbrella.h"; sourceTree = "<group>"; };
+		2659F4B98A2D88D160497F5E1ED5E952 /* Pods-uqpay_client_api.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-uqpay_client_api.modulemap"; sourceTree = "<group>"; };
+		27C08AAB11988FF1ECC0C966888DABE3 /* Pods-UQPAY_SDK_Project-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UQPAY_SDK_Project-dummy.m"; sourceTree = "<group>"; };
+		2AD4D50D4D23EAB7E5D4166459BB08B6 /* uqpay_client_api-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "uqpay_client_api-prefix.pch"; sourceTree = "<group>"; };
+		2D29ABB69F4AB03B39DFE290633C8804 /* ScenesEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ScenesEnum.h; sourceTree = "<group>"; };
+		2FCF56445F954D03389049A7136213D2 /* Pods-uqpay_client_api-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-uqpay_client_api-acknowledgements.plist"; sourceTree = "<group>"; };
+		33E8549C544BAA4101CAE90412C1EDE7 /* UQPayApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UQPayApi.m; sourceTree = "<group>"; };
+		3AB27B224199AA59BEC68901D000B23B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		41FD64431B99406866877115083ADCDD /* Pods-uqpay_client_api-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-uqpay_client_api-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42762F18A163EDEBED85B5E6DF9DCBD0 /* Pods-UQPAY_SDK_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UQPAY_SDK_Project.release.xcconfig"; sourceTree = "<group>"; };
+		47B2218A4FABCF5EA01437A396300D5D /* Pods-UQPAY_SDK_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UQPAY_SDK_Project.debug.xcconfig"; sourceTree = "<group>"; };
+		4896A219D7097400379D7BFCB58242BE /* uqpay_client_api.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = uqpay_client_api.modulemap; sourceTree = "<group>"; };
+		50FD8272D1B138B710EA19FC7F93A069 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5299C728CE6EA1B53A37FB79F54E21E1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		7A10F9806DD0EB458317F2410624B432 /* Pods-uqpay_client_api-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-uqpay_client_api-umbrella.h"; sourceTree = "<group>"; };
+		82C7EDC0FF570E3D48ACCCD806521F7C /* Pods-uqpay_client_api.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-uqpay_client_api.release.xcconfig"; sourceTree = "<group>"; };
+		82E2DA918C5625F43E9263FD28E9FF82 /* Pods_uqpay_client_api.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_uqpay_client_api.framework; path = "Pods-uqpay_client_api.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8849399191D6F498B5487BECCBC7205D /* OrderInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OrderInfo.h; sourceTree = "<group>"; };
+		8BA94B6BE20A3F565C0B08DE98434559 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D8877673CD09B141AC63166C93F4A83 /* UQPayApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UQPayApi.h; sourceTree = "<group>"; };
+		92A53375E470D6AC7BE2C3D6802C4627 /* Pods-uqpay_client_api.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-uqpay_client_api.debug.xcconfig"; sourceTree = "<group>"; };
+		98EF387C5FD8EF7BD86302AFC2958720 /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		9AC900CA700E7465F93951D4F56448A0 /* Pods-UQPAY_SDK_Project-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UQPAY_SDK_Project-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C8AD331189FAFE5941D2BA048F4BB9D /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = UQPAYSDK/libPaymentControl.a; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A149EADE801AE93319E9E8AC0BAE23E9 /* Pods-UQPAYSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UQPAYSDK.debug.xcconfig"; sourceTree = "<group>"; };
-		AB6E600DFEB49C2FD026BFB988AA104F /* Pods-UQPAYSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UQPAYSDK-dummy.m"; sourceTree = "<group>"; };
-		AEF74B3218FBCE7E85DFD218596C26B8 /* Pods-UQPAY_SDK_Project-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UQPAY_SDK_Project-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B3C73D3D0514DF6F7E5886F5687BF481 /* Pods-UQPAY_SDK_Project-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UQPAY_SDK_Project-umbrella.h"; sourceTree = "<group>"; };
+		A16BB359D109F9950DD9E7BB63ABBC72 /* Pods-UQPAY_SDK_Project.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UQPAY_SDK_Project.modulemap"; sourceTree = "<group>"; };
+		A17789441A6F336D92FB6FD053E0D0E9 /* uqpay_client_api-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "uqpay_client_api-Info.plist"; sourceTree = "<group>"; };
+		AD2368F4D7AFE45982020BDB5F49A750 /* Pods-uqpay_client_api-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-uqpay_client_api-Info.plist"; sourceTree = "<group>"; };
+		B2BB20B2DC856757DC663B97F6D3B59F /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		B73C9B45D8ABDBB935E9DECD8CC23E7B /* Pods-UQPAY_SDK_Project-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UQPAY_SDK_Project-acknowledgements.plist"; sourceTree = "<group>"; };
+		C446414AEC1E82AB8AEE33A11F3F50A6 /* OrderInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OrderInfo.m; sourceTree = "<group>"; };
 		C5C5B66AC8F0E413BEB0F09C474C89CC /* Pods_UQPAY_SDK_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UQPAY_SDK_Project.framework; path = "Pods-UQPAY_SDK_Project.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D564A93912442BE607087297531EB71F /* Pods-UQPAY_SDK_Project.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UQPAY_SDK_Project.modulemap"; sourceTree = "<group>"; };
-		E5DA6934A7964511F4B84E46A8AE39B9 /* UQPAYSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UQPAYSDK.xcconfig; sourceTree = "<group>"; };
-		EFF1E81CD617B119F433A70377673DA1 /* UQPAYSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UQPAYSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F72B2EC374CB1136B9BC1B3D1C42EE8F /* Pods-UQPAYSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UQPAYSDK-Info.plist"; sourceTree = "<group>"; };
+		C7E4531EE3C526B92E4CAE69DEACF8F5 /* EnvEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EnvEnum.h; sourceTree = "<group>"; };
+		D2A2ADC3091E46E0E8713DE14F3291B2 /* uqpay_client_api.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = uqpay_client_api.xcconfig; sourceTree = "<group>"; };
+		E0F9238722EF5CD1DF6FC95C46D02777 /* uqpay_client_api.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = uqpay_client_api.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EA7615C53D6BAA1760E714A3440F5F3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F04E1B1929988E2DAE885BF9E7EC4E7A /* uqpay_client_api-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "uqpay_client_api-umbrella.h"; sourceTree = "<group>"; };
+		F38E112879C3DC49DFC3335F28FCC666 /* uqpay_client_api-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "uqpay_client_api-dummy.m"; sourceTree = "<group>"; };
+		F6DAA6BB5B9077F4D67D2248C4C29ECD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		FD894833B214772C41C7AB490651ED7D /* uqpay_client_api.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = uqpay_client_api.framework; path = uqpay_client_api.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20D9270F3B9582C1E1349EB201EF09FB /* Frameworks */ = {
+		0C23F89F46C7E24B9A4D22B51E3589B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D0FA17D508715F88E79C9186BC7457 /* Foundation.framework in Frameworks */,
+				B1021B0384AC90A0EDD3FAEFB1DF386E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C050574A434B5BCD33EA1F19BE4C131 /* Frameworks */ = {
+		2C0F6F35EEF834751C83B8985C31E255 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE87CAEF1B3B26BD004821BAA5532DCF /* Foundation.framework in Frameworks */,
+				FE10371CF29F9DDD72B71D56523EFF77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D671966FB60127E9C7DE9C1A896729F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984F4825B3954357FF459199CE626B9B /* CFNetwork.framework in Frameworks */,
+				90B85CCD1B668C14978E45BBD28B3078 /* Foundation.framework in Frameworks */,
+				1B601879C18B879972461925E9C6B9F8 /* LocalAuthentication.framework in Frameworks */,
+				4144F50AEA40570E9C50CB8D1222B97F /* Security.framework in Frameworks */,
+				DBBEDE76E5E8AA24B66604EC2430C637 /* SystemConfiguration.framework in Frameworks */,
+				76993CC188C81F2CE4899B66254CABF7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28676F16F2F4A0F35A3A3F841566F397 /* Development Pods */ = {
+		2E83D2F52F684B03AC3508840EFC5343 /* uqpay_client_api */ = {
 			isa = PBXGroup;
 			children = (
-				91736B26DB7AA3D9E66195590A540B32 /* UQPAYSDK */,
+				D0BC90C905475DD27898C3CA8CC6EF86 /* Pod */,
+				EC2C9073F638F1C9D8EF8F36F2A18D36 /* Support Files */,
+				C4C36DBD1CBC0B9C20494BA6340247DA /* UQPAYSDK */,
 			);
-			name = "Development Pods";
+			name = uqpay_client_api;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		493F3B4DFD2CE77DFFA32A9525ADC3B2 /* Products */ = {
+		2EF053E98A69A0A4690C94FCEFD82AB8 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F6DAA6BB5B9077F4D67D2248C4C29ECD /* CFNetwork.framework */,
+				EA7615C53D6BAA1760E714A3440F5F3F /* Foundation.framework */,
+				B2BB20B2DC856757DC663B97F6D3B59F /* LocalAuthentication.framework */,
+				08885C0D8523BB158565592505F89C3C /* Security.framework */,
+				5299C728CE6EA1B53A37FB79F54E21E1 /* SystemConfiguration.framework */,
+				8BA94B6BE20A3F565C0B08DE98434559 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		32740826CD15585FD3E739AA1BA3E109 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4531EE3C526B92E4CAE69DEACF8F5 /* EnvEnum.h */,
+				8849399191D6F498B5487BECCBC7205D /* OrderInfo.h */,
+				2D29ABB69F4AB03B39DFE290633C8804 /* ScenesEnum.h */,
+				8D8877673CD09B141AC63166C93F4A83 /* UQPayApi.h */,
+				01AE29AB1CA9A85E08B3562A42689CC6 /* UQPAYSDK.h */,
+			);
+			name = Public;
+			path = UQPAYSDK/Public;
+			sourceTree = "<group>";
+		};
+		4BBC04DC8B3F61AD76B5E9A447A19385 /* Pods-uqpay_client_api */ = {
+			isa = PBXGroup;
+			children = (
+				2659F4B98A2D88D160497F5E1ED5E952 /* Pods-uqpay_client_api.modulemap */,
+				41FD64431B99406866877115083ADCDD /* Pods-uqpay_client_api-acknowledgements.markdown */,
+				2FCF56445F954D03389049A7136213D2 /* Pods-uqpay_client_api-acknowledgements.plist */,
+				04ADB657769DA28179EC5A34CFA2922A /* Pods-uqpay_client_api-dummy.m */,
+				AD2368F4D7AFE45982020BDB5F49A750 /* Pods-uqpay_client_api-Info.plist */,
+				7A10F9806DD0EB458317F2410624B432 /* Pods-uqpay_client_api-umbrella.h */,
+				92A53375E470D6AC7BE2C3D6802C4627 /* Pods-uqpay_client_api.debug.xcconfig */,
+				82C7EDC0FF570E3D48ACCCD806521F7C /* Pods-uqpay_client_api.release.xcconfig */,
+			);
+			name = "Pods-uqpay_client_api";
+			path = "Target Support Files/Pods-uqpay_client_api";
+			sourceTree = "<group>";
+		};
+		66E446D5BD32F23E345B5485F9CD81F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C8AD331189FAFE5941D2BA048F4BB9D /* libPaymentControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A946D21CB1F47B45647D96839C367A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82E2DA918C5625F43E9263FD28E9FF82 /* Pods_uqpay_client_api.framework */,
 				C5C5B66AC8F0E413BEB0F09C474C89CC /* Pods_UQPAY_SDK_Project.framework */,
-				7E0E86A7B18B257C191CD5572A054334 /* Pods_UQPAYSDK.framework */,
+				FD894833B214772C41C7AB490651ED7D /* uqpay_client_api.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		518946DC4920CD6BA9E85D286C9DAE2C /* Support Files */ = {
+		91053B397FFF214CBB2805BEF9EF79E7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5DA6934A7964511F4B84E46A8AE39B9 /* UQPAYSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/UQPAYSDK";
-			sourceTree = "<group>";
-		};
-		8BC778D46C9EDE3436A88B210FC157C8 /* Pods-UQPAYSDK */ = {
-			isa = PBXGroup;
-			children = (
-				11140562A1DD55FD5CC300AD0A02251B /* Pods-UQPAYSDK.modulemap */,
-				3C4208237DC09BCF89001F01BB8D29AD /* Pods-UQPAYSDK-acknowledgements.markdown */,
-				3DD344A08875A2978210433D7379CC40 /* Pods-UQPAYSDK-acknowledgements.plist */,
-				AB6E600DFEB49C2FD026BFB988AA104F /* Pods-UQPAYSDK-dummy.m */,
-				F72B2EC374CB1136B9BC1B3D1C42EE8F /* Pods-UQPAYSDK-Info.plist */,
-				04D654961BA6C570CCC7C55BEBBA0302 /* Pods-UQPAYSDK-umbrella.h */,
-				A149EADE801AE93319E9E8AC0BAE23E9 /* Pods-UQPAYSDK.debug.xcconfig */,
-				1975F03B79A14FBB8BC30F0F5C84B195 /* Pods-UQPAYSDK.release.xcconfig */,
-			);
-			name = "Pods-UQPAYSDK";
-			path = "Target Support Files/Pods-UQPAYSDK";
-			sourceTree = "<group>";
-		};
-		91736B26DB7AA3D9E66195590A540B32 /* UQPAYSDK */ = {
-			isa = PBXGroup;
-			children = (
-				CF84E4C8E7842B96D59D30ACC6328229 /* Pod */,
-				518946DC4920CD6BA9E85D286C9DAE2C /* Support Files */,
-			);
-			name = UQPAYSDK;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		A71A3721922CAA7500ECB6E725CFD04D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E0FD3932FDC3597C483FC0588BA3543C /* Pods-UQPAY_SDK_Project */,
-				8BC778D46C9EDE3436A88B210FC157C8 /* Pods-UQPAYSDK */,
+				4BBC04DC8B3F61AD76B5E9A447A19385 /* Pods-uqpay_client_api */,
+				F78EFEA3B61E77226D8BBE3D0AFAE257 /* Pods-UQPAY_SDK_Project */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		AE4636C48354C2EE1A65491768ECB199 /* private */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				C446414AEC1E82AB8AEE33A11F3F50A6 /* OrderInfo.m */,
+				33E8549C544BAA4101CAE90412C1EDE7 /* UQPayApi.m */,
 			);
-			name = iOS;
+			name = private;
+			path = UQPAYSDK/private;
+			sourceTree = "<group>";
+		};
+		C4C36DBD1CBC0B9C20494BA6340247DA /* UQPAYSDK */ = {
+			isa = PBXGroup;
+			children = (
+				66E446D5BD32F23E345B5485F9CD81F7 /* Frameworks */,
+				FC0B9F2DCEC8B6504BD00FBD2CA84B9C /* libs */,
+				AE4636C48354C2EE1A65491768ECB199 /* private */,
+				32740826CD15585FD3E739AA1BA3E109 /* Public */,
+			);
+			name = UQPAYSDK;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				28676F16F2F4A0F35A3A3F841566F397 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				493F3B4DFD2CE77DFFA32A9525ADC3B2 /* Products */,
-				A71A3721922CAA7500ECB6E725CFD04D /* Targets Support Files */,
+				E32D1838E84EB1D436B1A10859D55CF7 /* Development Pods */,
+				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
+				8A946D21CB1F47B45647D96839C367A7 /* Products */,
+				91053B397FFF214CBB2805BEF9EF79E7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CF84E4C8E7842B96D59D30ACC6328229 /* Pod */ = {
+		D0BC90C905475DD27898C3CA8CC6EF86 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				20F9592CC548D450C383BB7B2632DD50 /* LICENSE */,
-				289FD3C5D2B2056B3A7C5BC1D8E974E2 /* README.md */,
-				EFF1E81CD617B119F433A70377673DA1 /* UQPAYSDK.podspec */,
+				3AB27B224199AA59BEC68901D000B23B /* LICENSE */,
+				50FD8272D1B138B710EA19FC7F93A069 /* README.md */,
+				E0F9238722EF5CD1DF6FC95C46D02777 /* uqpay_client_api.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				2EF053E98A69A0A4690C94FCEFD82AB8 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E0FD3932FDC3597C483FC0588BA3543C /* Pods-UQPAY_SDK_Project */ = {
+		E32D1838E84EB1D436B1A10859D55CF7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D564A93912442BE607087297531EB71F /* Pods-UQPAY_SDK_Project.modulemap */,
-				AEF74B3218FBCE7E85DFD218596C26B8 /* Pods-UQPAY_SDK_Project-acknowledgements.markdown */,
-				101CDE2781A00315F5327A5F9F693573 /* Pods-UQPAY_SDK_Project-acknowledgements.plist */,
-				86938FAB25DC98D94A9C523AED3AD6E0 /* Pods-UQPAY_SDK_Project-dummy.m */,
-				86816F451BBA067340C500229D897C25 /* Pods-UQPAY_SDK_Project-Info.plist */,
-				B3C73D3D0514DF6F7E5886F5687BF481 /* Pods-UQPAY_SDK_Project-umbrella.h */,
-				8A25833F615AC17686936C3EF10962E8 /* Pods-UQPAY_SDK_Project.debug.xcconfig */,
-				064018F2BDEC423C9E77DE8694EDCF2A /* Pods-UQPAY_SDK_Project.release.xcconfig */,
+				2E83D2F52F684B03AC3508840EFC5343 /* uqpay_client_api */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EC2C9073F638F1C9D8EF8F36F2A18D36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4896A219D7097400379D7BFCB58242BE /* uqpay_client_api.modulemap */,
+				D2A2ADC3091E46E0E8713DE14F3291B2 /* uqpay_client_api.xcconfig */,
+				F38E112879C3DC49DFC3335F28FCC666 /* uqpay_client_api-dummy.m */,
+				A17789441A6F336D92FB6FD053E0D0E9 /* uqpay_client_api-Info.plist */,
+				2AD4D50D4D23EAB7E5D4166459BB08B6 /* uqpay_client_api-prefix.pch */,
+				F04E1B1929988E2DAE885BF9E7EC4E7A /* uqpay_client_api-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/uqpay_client_api";
+			sourceTree = "<group>";
+		};
+		F78EFEA3B61E77226D8BBE3D0AFAE257 /* Pods-UQPAY_SDK_Project */ = {
+			isa = PBXGroup;
+			children = (
+				A16BB359D109F9950DD9E7BB63ABBC72 /* Pods-UQPAY_SDK_Project.modulemap */,
+				9AC900CA700E7465F93951D4F56448A0 /* Pods-UQPAY_SDK_Project-acknowledgements.markdown */,
+				B73C9B45D8ABDBB935E9DECD8CC23E7B /* Pods-UQPAY_SDK_Project-acknowledgements.plist */,
+				27C08AAB11988FF1ECC0C966888DABE3 /* Pods-UQPAY_SDK_Project-dummy.m */,
+				124FDFE61B4FE73CE43F0A421C0A003C /* Pods-UQPAY_SDK_Project-frameworks.sh */,
+				0E01C034C18A95F1CE1B44B0991533BA /* Pods-UQPAY_SDK_Project-Info.plist */,
+				17A32E8AEDF7A8045B680E78E436470E /* Pods-UQPAY_SDK_Project-umbrella.h */,
+				47B2218A4FABCF5EA01437A396300D5D /* Pods-UQPAY_SDK_Project.debug.xcconfig */,
+				42762F18A163EDEBED85B5E6DF9DCBD0 /* Pods-UQPAY_SDK_Project.release.xcconfig */,
 			);
 			name = "Pods-UQPAY_SDK_Project";
 			path = "Target Support Files/Pods-UQPAY_SDK_Project";
 			sourceTree = "<group>";
 		};
+		FC0B9F2DCEC8B6504BD00FBD2CA84B9C /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				98EF387C5FD8EF7BD86302AFC2958720 /* UPPaymentControl.h */,
+			);
+			name = libs;
+			path = UQPAYSDK/libs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		ADD9BF5103C1BA9C37FE4E61675553E2 /* Headers */ = {
+		59C551B1FA5F910D1D9BD4B0D3CE7D59 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E0EFA554ECDE923F9BA0A9C2F3562C7 /* Pods-UQPAY_SDK_Project-umbrella.h in Headers */,
+				C0F7B352FFE96FAD1461CE503F0AE096 /* Pods-uqpay_client_api-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B03C4D2CE6CCB5F912FAE350AE309F2D /* Headers */ = {
+		72AD84DB97C7D1B16208E74725F18EBE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63F4BBA591692777A7F7D641E0D28A81 /* Pods-UQPAYSDK-umbrella.h in Headers */,
+				816202B62D629581F63CB0C22421368E /* EnvEnum.h in Headers */,
+				B1560AB55AFF73DD09F9C1C096719407 /* OrderInfo.h in Headers */,
+				179D989A2B1440BD5F198C076D8A9079 /* ScenesEnum.h in Headers */,
+				94ED44E53F6A02AEC885157E1B9F6C76 /* UPPaymentControl.h in Headers */,
+				E7DBC55005BE52DEAC7C7D54CB63BB62 /* uqpay_client_api-umbrella.h in Headers */,
+				8C7811E2AC7829E2AEF978AFA39302F4 /* UQPayApi.h in Headers */,
+				38A894E545CAE83E7191275151357ABA /* UQPAYSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7931E336952A0946FF58EF7DBA7E96CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5793CB9D30DC91770A5E581A85F3CE20 /* Pods-UQPAY_SDK_Project-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3FD3038CDF40AC01C52651663BBACCED /* Pods-UQPAY_SDK_Project */ = {
+		3262AC55C145376D77289F0A04D1A2AF /* uqpay_client_api */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E0E9DAD980CCD7CFCB3E7594AC7446F /* Build configuration list for PBXNativeTarget "Pods-UQPAY_SDK_Project" */;
+			buildConfigurationList = 821789436E02486DF066FC8DC5DC5FFB /* Build configuration list for PBXNativeTarget "uqpay_client_api" */;
 			buildPhases = (
-				ADD9BF5103C1BA9C37FE4E61675553E2 /* Headers */,
-				FFE109AC13E89C847757C1F9C205230F /* Sources */,
-				20D9270F3B9582C1E1349EB201EF09FB /* Frameworks */,
-				446297C5F23F4972F0F0822B744A3294 /* Resources */,
+				72AD84DB97C7D1B16208E74725F18EBE /* Headers */,
+				7BEE41AEDEEBF12E288E5141B0D72FD3 /* Sources */,
+				D671966FB60127E9C7DE9C1A896729F6 /* Frameworks */,
+				14BD04BF20CE991B6DA72978D3D8B770 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				95126C0C6C78705C6012F6E3906B31CE /* PBXTargetDependency */,
+			);
+			name = uqpay_client_api;
+			productName = uqpay_client_api;
+			productReference = FD894833B214772C41C7AB490651ED7D /* uqpay_client_api.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FD3038CDF40AC01C52651663BBACCED /* Pods-UQPAY_SDK_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF057DDAA3E899BBFD164FA197D8FC3 /* Build configuration list for PBXNativeTarget "Pods-UQPAY_SDK_Project" */;
+			buildPhases = (
+				7931E336952A0946FF58EF7DBA7E96CE /* Headers */,
+				B513D6EE31E12692567966ACDE722273 /* Sources */,
+				2C0F6F35EEF834751C83B8985C31E255 /* Frameworks */,
+				77CC58C0BF070C81B7D1D892AC5ADB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16995FEB13897879A49631D8B555C068 /* PBXTargetDependency */,
 			);
 			name = "Pods-UQPAY_SDK_Project";
 			productName = "Pods-UQPAY_SDK_Project";
 			productReference = C5C5B66AC8F0E413BEB0F09C474C89CC /* Pods_UQPAY_SDK_Project.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7EA2A00FFEFBC50496090B308AF6EB18 /* Pods-UQPAYSDK */ = {
+		85A7A1E3EC0CCB0A9C64AAF208F7C011 /* Pods-uqpay_client_api */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C0B130732F6051FFDE14369E599AE6F /* Build configuration list for PBXNativeTarget "Pods-UQPAYSDK" */;
+			buildConfigurationList = 6A9A0A86CB737130A4DF63FB90E9248D /* Build configuration list for PBXNativeTarget "Pods-uqpay_client_api" */;
 			buildPhases = (
-				B03C4D2CE6CCB5F912FAE350AE309F2D /* Headers */,
-				8AF2C2E697B9CB516EBAFD9781AE0C97 /* Sources */,
-				5C050574A434B5BCD33EA1F19BE4C131 /* Frameworks */,
-				12E89C8D7362BDD8EF5B7D47046AB9E3 /* Resources */,
+				59C551B1FA5F910D1D9BD4B0D3CE7D59 /* Headers */,
+				AED47092F25B7B43C644DC753C82BC8A /* Sources */,
+				0C23F89F46C7E24B9A4D22B51E3589B6 /* Frameworks */,
+				F2EE22CFFFA5044FC03C6AE173A53835 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-UQPAYSDK";
-			productName = "Pods-UQPAYSDK";
-			productReference = 7E0E86A7B18B257C191CD5572A054334 /* Pods_UQPAYSDK.framework */;
+			name = "Pods-uqpay_client_api";
+			productName = "Pods-uqpay_client_api";
+			productReference = 82E2DA918C5625F43E9263FD28E9FF82 /* Pods_uqpay_client_api.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -272,28 +406,36 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 493F3B4DFD2CE77DFFA32A9525ADC3B2 /* Products */;
+			productRefGroup = 8A946D21CB1F47B45647D96839C367A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				85A7A1E3EC0CCB0A9C64AAF208F7C011 /* Pods-uqpay_client_api */,
 				3FD3038CDF40AC01C52651663BBACCED /* Pods-UQPAY_SDK_Project */,
-				7EA2A00FFEFBC50496090B308AF6EB18 /* Pods-UQPAYSDK */,
-				5C451D4D565E21C60380D3B1F24B0A90 /* UQPAYSDK */,
+				3262AC55C145376D77289F0A04D1A2AF /* uqpay_client_api */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		12E89C8D7362BDD8EF5B7D47046AB9E3 /* Resources */ = {
+		14BD04BF20CE991B6DA72978D3D8B770 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		446297C5F23F4972F0F0822B744A3294 /* Resources */ = {
+		77CC58C0BF070C81B7D1D892AC5ADB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE22CFFFA5044FC03C6AE173A53835 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,37 +445,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8AF2C2E697B9CB516EBAFD9781AE0C97 /* Sources */ = {
+		7BEE41AEDEEBF12E288E5141B0D72FD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81D1E79DB558E85E51D630F0076172F /* Pods-UQPAYSDK-dummy.m in Sources */,
+				84FD20714E48C5B759CBF5EFDB9AC4E8 /* OrderInfo.m in Sources */,
+				09DB393262BC672F97137467BBDC303D /* uqpay_client_api-dummy.m in Sources */,
+				123005CFAADF93DF78C27D8C720D54A2 /* UQPayApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFE109AC13E89C847757C1F9C205230F /* Sources */ = {
+		AED47092F25B7B43C644DC753C82BC8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				954473C5E74487B916D6A6E0ECFBB7D7 /* Pods-UQPAY_SDK_Project-dummy.m in Sources */,
+				710E886F72E6853BDEC510AF122E1C13 /* Pods-uqpay_client_api-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B513D6EE31E12692567966ACDE722273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407E41542D93507A9FC34C1915049CC3 /* Pods-UQPAY_SDK_Project-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		95126C0C6C78705C6012F6E3906B31CE /* PBXTargetDependency */ = {
+		16995FEB13897879A49631D8B555C068 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = UQPAYSDK;
-			target = 5C451D4D565E21C60380D3B1F24B0A90 /* UQPAYSDK */;
-			targetProxy = AB81D79B8F9A22DB53883B2D0EDEE368 /* PBXContainerItemProxy */;
+			name = uqpay_client_api;
+			target = 3262AC55C145376D77289F0A04D1A2AF /* uqpay_client_api */;
+			targetProxy = C8B494B547CDBAD9D4C9F84967945B0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3361F12BDCEAB92DF841B167AAB5BBD0 /* Debug */ = {
+		190BEEDA62DB1F411E42F09CA0E62630 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A149EADE801AE93319E9E8AC0BAE23E9 /* Pods-UQPAYSDK.debug.xcconfig */;
+			baseConfigurationReference = 82C7EDC0FF570E3D48ACCCD806521F7C /* Pods-uqpay_client_api.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
@@ -346,7 +498,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UQPAYSDK/Pods-UQPAYSDK-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-uqpay_client_api/Pods-uqpay_client_api-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -355,7 +507,81 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UQPAYSDK/Pods-UQPAYSDK.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-uqpay_client_api/Pods-uqpay_client_api.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2345CB85BFA187CF8E4DD88D94D73C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A2ADC3091E46E0E8713DE14F3291B2 /* uqpay_client_api.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/uqpay_client_api/uqpay_client_api-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/uqpay_client_api/uqpay_client_api-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/uqpay_client_api/uqpay_client_api.modulemap";
+				PRODUCT_MODULE_NAME = uqpay_client_api;
+				PRODUCT_NAME = uqpay_client_api;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32CB1B0CD6430E20E2897F7F46C982E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A53375E470D6AC7BE2C3D6802C4627 /* Pods-uqpay_client_api.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-uqpay_client_api/Pods-uqpay_client_api-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-uqpay_client_api/Pods-uqpay_client_api.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -368,83 +594,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3AA553B90F371CB02AD51365D87E7BE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1975F03B79A14FBB8BC30F0F5C84B195 /* Pods-UQPAYSDK.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UQPAYSDK/Pods-UQPAYSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UQPAYSDK/Pods-UQPAYSDK.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EB0FC5FEDBDD0E0E8E9743630D06B85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 064018F2BDEC423C9E77DE8694EDCF2A /* Pods-UQPAY_SDK_Project.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UQPAY_SDK_Project/Pods-UQPAY_SDK_Project-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UQPAY_SDK_Project/Pods-UQPAY_SDK_Project.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -570,42 +719,81 @@
 			};
 			name = Debug;
 		};
-		92798A64918B7C06F2476C3BAE794015 /* Release */ = {
+		BCA0E9E5EEA682203FF02135BAA89EA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5DA6934A7964511F4B84E46A8AE39B9 /* UQPAYSDK.xcconfig */;
+			baseConfigurationReference = D2A2ADC3091E46E0E8713DE14F3291B2 /* uqpay_client_api.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/uqpay_client_api/uqpay_client_api-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/uqpay_client_api/uqpay_client_api-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "Target Support Files/uqpay_client_api/uqpay_client_api.modulemap";
+				PRODUCT_MODULE_NAME = uqpay_client_api;
+				PRODUCT_NAME = uqpay_client_api;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		95A4B28AFC6B7F6C89C5E452352767E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5DA6934A7964511F4B84E46A8AE39B9 /* UQPAYSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A8044369B89DD65D988F61DEF9C22171 /* Debug */ = {
+		CC96DBCD494F6E14E37AB45EBE49617D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A25833F615AC17686936C3EF10962E8 /* Pods-UQPAY_SDK_Project.debug.xcconfig */;
+			baseConfigurationReference = 42762F18A163EDEBED85B5E6DF9DCBD0 /* Pods-UQPAY_SDK_Project.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UQPAY_SDK_Project/Pods-UQPAY_SDK_Project-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UQPAY_SDK_Project/Pods-UQPAY_SDK_Project.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7731C3892DE3F73AD7863F188AC867A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B2218A4FABCF5EA01437A396300D5D /* Pods-UQPAY_SDK_Project.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -643,24 +831,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17BB107D26FB2F4F1CE1B9F12A4BF319 /* Build configuration list for PBXAggregateTarget "UQPAYSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95A4B28AFC6B7F6C89C5E452352767E3 /* Debug */,
-				92798A64918B7C06F2476C3BAE794015 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1E0E9DAD980CCD7CFCB3E7594AC7446F /* Build configuration list for PBXNativeTarget "Pods-UQPAY_SDK_Project" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8044369B89DD65D988F61DEF9C22171 /* Debug */,
-				7EB0FC5FEDBDD0E0E8E9743630D06B85 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -670,11 +840,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C0B130732F6051FFDE14369E599AE6F /* Build configuration list for PBXNativeTarget "Pods-UQPAYSDK" */ = {
+		6A9A0A86CB737130A4DF63FB90E9248D /* Build configuration list for PBXNativeTarget "Pods-uqpay_client_api" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3361F12BDCEAB92DF841B167AAB5BBD0 /* Debug */,
-				3AA553B90F371CB02AD51365D87E7BE4 /* Release */,
+				32CB1B0CD6430E20E2897F7F46C982E0 /* Debug */,
+				190BEEDA62DB1F411E42F09CA0E62630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821789436E02486DF066FC8DC5DC5FFB /* Build configuration list for PBXNativeTarget "uqpay_client_api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA0E9E5EEA682203FF02135BAA89EA3 /* Debug */,
+				2345CB85BFA187CF8E4DD88D94D73C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF057DDAA3E899BBFD164FA197D8FC3 /* Build configuration list for PBXNativeTarget "Pods-UQPAY_SDK_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7731C3892DE3F73AD7863F188AC867A /* Debug */,
+				CC96DBCD494F6E14E37AB45EBE49617D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -16,7 +16,7 @@ FOUNDATION_EXPORT const unsigned char UQPAY_SDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <UQPAY_SDK/PublicHeader.h>
 
-#import <UQPAYSDK/UQPayApi.h>
-#import <UQPAYSDK/OrderInfo.h>
-#import <UQPAYSDK/EnvEnum.h>
-#import <UQPAYSDK/ScenesEnum.h>
+#import <uqpay_client_api/UQPayApi.h>
+#import <uqpay_client_api/OrderInfo.h>
+#import <uqpay_client_api/EnvEnum.h>
+#import <uqpay_client_api/ScenesEnum.h>

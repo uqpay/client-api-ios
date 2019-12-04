@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## UQPAYSDK
+## uqpay_client_api
 
 MIT License
 
