@@ -21,6 +21,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.api = [[UQPayApi alloc]initWithModel:TEST];
+    
+    if (![UQPayApi checkWalletInstalled:UnionPay]) {
+        NSLog(@"请安装云闪付APP");
+    }
 
 }
 

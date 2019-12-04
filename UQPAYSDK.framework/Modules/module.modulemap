@@ -1,6 +1,0 @@
-framework module UQPAYSDK {
-  umbrella header "UQPAYSDK.h"
-
-  export *
-  module * { export * }
-}
